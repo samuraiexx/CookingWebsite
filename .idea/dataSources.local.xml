@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - drawbook@localhost" uuid="c01527ff-8acd-4949-9302-f240184e05a2">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>drawbook.*</schema-pattern>
+      <default-schemas>drawbook.*</default-schemas>
+    </data-source>
+    <data-source name="MySQL - cooking@localhost" uuid="6e64cf52-1e00-4896-857c-d947b1068ff4">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>cooking.*</schema-pattern>
+      <default-schemas>cooking.*</default-schemas>
+    </data-source>
+  </component>
+</project>

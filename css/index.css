@@ -1,0 +1,83 @@
+#container h1 {
+    width: 150px;
+}
+#menu :nth-child(1) a {
+    border-bottom: 4px solid rgb(95,207,128);
+    padding-bottom: 21px;
+    margin-left: 1px;
+}
+.recipes-list {
+    display: inline-block;
+    list-style-type: none;
+    text-align: left;
+    padding:0 1vw 0 2vw;
+    width: 100%;
+    box-sizing: border-box;
+}
+.recipes-list > *{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    background-image: url('../img/recipes/default.jpg');
+    background-size: 100%;
+    margin-bottom:5vw;
+    height: 33vw;
+    width: 44vw;
+}
+.recipes-list > :nth-child(2n - 1) {
+    margin-right: 3vw;
+}
+.recipes-list > *:hover .recipe-hover {
+    z-index: 200;
+    opacity: 1;
+}
+.recipe-hover {
+    color: white;
+    position: absolute;
+    background-color: rgba(88,88,88,0.2);
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    opacity: 0;
+}
+.recipe-hover > * {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.name {
+
+}
+.description {
+
+}
+.icon {
+    font-size: 20px;
+    font-family: cooking;
+    z-index: 500;
+    padding: 5px;
+    margin-right: 1.5vw;
+}
+.liked {
+    color: rgb(95,207,128);
+}
+.likes, .deslikes, .views {
+    font-size: 25px;
+}
+
+/* ---------- Screen size adjustments --------- */
+/* --- Remember to invert max to min ---*/
+@media only screen and (max-width: 610px) {
+    .recipes-list > :nth-child(2n - 1) {
+        margin-right: 0;
+    }
+    .recipes-list > *{
+        width: 84vw;
+        height: 63vw;
+        margin-left: 4vw;
+    }
+}

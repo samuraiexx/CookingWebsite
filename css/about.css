@@ -1,0 +1,40 @@
+#container h1 {
+    width: 100px;
+}
+#container {
+    text-align: left;
+    min-height: calc(100vh - 270px);
+}
+#menu :nth-child(3) a {
+    border-bottom: 4px solid rgb(95,207,128);
+    padding-bottom: 21px;
+    margin-left: 1px;
+}
+#container img {
+    display: inline-block;
+    width: 160px;
+    border-radius: 50%;
+    margin: 1vw;
+}
+#container p1 {
+    padding: 30px;
+}
+#about-container {
+    padding-top: 3vw;
+    vertical-align: top;
+    display: inline-block;
+    width: calc(90% - 160px);
+}
+
+/* ---------- Screen size adjustments --------- */
+/* --- Remember to invert max to min ---*/
+@media only screen and (max-width: 610px) {
+    #container img {
+        display: block;
+        width: 90vw;
+    }
+    #about-container {
+        width: 90vw;
+        margin-left: 4vw;
+    }
+}

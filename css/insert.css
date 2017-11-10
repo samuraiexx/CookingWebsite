@@ -1,0 +1,34 @@
+#container{ width: 96vw;}
+#container h1 {
+    width: 230px;
+    margin: 0;
+}
+#i_name, #i_description, #i_ingredients, #i_recipe {
+    resize: none;
+    height: 15px;
+    padding: 5px;
+    margin-top: 5px;
+}
+#i_name {
+    width: 300px;
+}
+#i_description {
+    width: 50vw;
+    height: 100px;
+}
+#i_ingredients {
+    width: 30vw;
+    height: 400px;
+}
+#i_recipe {
+    width: 60vw;
+    height: 400px;
+}
+#container {
+    text-align: left;
+    padding-left: 1vw;
+}
+#ing_and_prep div {
+    display:inline-block;
+    vetical-align:top;
+}

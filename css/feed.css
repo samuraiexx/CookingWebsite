@@ -1,0 +1,8 @@
+#container h1 {
+    width: 80px;
+}
+#menu :nth-child(2) a {
+    border-bottom: 4px solid rgb(95,207,128);
+    padding-bottom: 21px;
+    margin-left: 1px;
+}

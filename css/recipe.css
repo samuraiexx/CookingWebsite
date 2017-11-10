@@ -1,0 +1,40 @@
+#container {
+    text-align: left;
+    }
+#recipe-container {
+    width: 96%;
+    margin-left: 1vw;
+    background: linear-gradient(to right, rgb(133,133,133) 0%,rgb(133,133,133) 33.33%,rgb(233,233,233) 33.33%,rgb(233,233,233) 100%);
+}
+#menu :nth-child(1) a {
+    border-bottom: 4px solid rgb(95,207,128);
+    padding-bottom: 21px;
+    margin-left: 1px;
+}
+#photo {
+    width: 100%;
+    height: 230px;
+    background: url("../img/recipes/default.jpg") no-repeat center center;
+    background-size: 100% auto;
+}
+#ingredients {
+    box-sizing: border-box;
+    background-color: rgb(133,133,133);
+    width: 33.33%;
+    display: inline-block;
+    vertical-align: top;
+    font-family: Asap-Bold;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    padding: 0.4vw;
+}
+#preparation {
+    box-sizing: border-box;
+    background-color: rgb(233,233,233);
+    width: 66.67%;
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.4vw;
+}
